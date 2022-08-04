@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UseWPF>true</UseWPF>
+
+		<RootNamespace>GameOfLife</RootNamespace>
+
+		<StartupObject>GameOfLife.App</StartupObject>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Page Include="App.xaml" />
+	</ItemGroup>
+
+</Project>
